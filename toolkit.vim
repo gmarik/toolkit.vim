@@ -9,10 +9,9 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 
 so git.vim
-
 so rails.vim
-
-so go.vim
+so coffee-script.vim
+" so go.vim
 
 " navigation
 Bundle 'L9'
