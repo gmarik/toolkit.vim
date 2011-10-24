@@ -8,28 +8,13 @@ call vundle#rc()
 " required! 
 Bundle 'gmarik/vundle'
 
-"
-" Git
-"
-Bundle 'tpope/vim-fugitive'
+so git.vim
 
-"
-" Rails
-"
-Bundle 'tpope/vim-rails'
+so rails.vim
 
-"
-" Go lang
-"
-Bundle 'anzaika/go.vim'
+so go.vim
 
-"
-" Coffee-script
-"
-Bundle 'kchmck/vim-coffee-script'
-
-
-" Navigation
+" navigation
 Bundle 'L9'
 Bundle 'FuzzyFinder'
 Bundle 'git://git.wincent.com/command-t.git'

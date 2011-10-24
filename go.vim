@@ -1,0 +1,2 @@
+
+Bundle 'anzaika/go.vim'
